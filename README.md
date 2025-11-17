@@ -132,7 +132,7 @@ To make the API run automatically on boot, we'll create a `systemd` service.
 
     ```ini
     [Unit]
-    Description=Wake-on-LAN API Server
+    Description=Wake-on-LAN API
     After=network.target
 
     [Service]
@@ -140,6 +140,7 @@ To make the API run automatically on boot, we'll create a `systemd` service.
     WorkingDirectory=/opt/wol
     ExecStart=/usr/bin/python3 server.py
     Restart=always
+    User=root
 
     [Install]
     WantedBy=multi-user.target
