@@ -1,6 +1,8 @@
 # Wake-on-LAN API
 
-**Wake a remote PC through a small, repeatable workflow.**
+![Wake-on-LAN API — Remote PC automation](docs/brand/project-header.png)
+
+**Wake a remote PC through a private, repeatable workflow.**
 
 A Flask API running on a Raspberry Pi or Linux host sends a Wake-on-LAN packet to one configured PC. Tailscale provides a private route to that host; an iPhone Shortcut or HTTP client triggers the request.
 
