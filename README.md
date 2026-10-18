@@ -10,6 +10,8 @@ A Flask API running on a Raspberry Pi or Linux host sends a Wake-on-LAN packet t
 iPhone / client → Tailscale → Flask API → wakeonlan → target PC
 ```
 
+![Documented private remote-wake workflow](docs/brand/project-evidence.png)
+
 ## Requirements
 
 - Python 3.10+ on an always-on Linux host.
